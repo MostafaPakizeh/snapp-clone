@@ -1,0 +1,33 @@
+//footer style
+
+#footer {
+    width: 1519px;
+    height: 344px;
+    background-color: #151F33;
+    margin-top: 500px;
+
+    .footer-links {
+
+        @include display();
+
+        li {
+            padding: 0 15px;
+            margin-top: 50px;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    .copy-right {
+        color: #fff;
+        @include display();
+        margin-top: 45px;
+    }
+
+    .footer-img {
+        @include display();
+        margin-top: 50px;
+    }
+}

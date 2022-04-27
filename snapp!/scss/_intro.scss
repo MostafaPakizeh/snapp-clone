@@ -1,0 +1,30 @@
+//intro style 
+
+#intro {
+    width: 1519px;
+    height: 587px;
+    background-color: #2f4a7f;
+    margin-top: 110px;
+    
+    img {
+        width: 480px;
+        fill: #fff;
+    }
+
+    h3 {
+        margin-top: -480px;
+        margin-right: 870px;
+        font-weight: 200;
+        font-size: 32px;
+        color: $nav-color-hover;
+    }
+    
+    p {
+        margin-top: 118px;
+        text-align: justify;
+        font-size: 17px;
+        margin-right: 675px;
+        margin-left: 56px;
+        color: #fff;
+    }
+}

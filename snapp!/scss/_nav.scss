@@ -1,0 +1,46 @@
+
+//nav style 
+
+#nav {
+    @include flex(flex, space-between, null);
+    border-top: #02D772;
+    
+    .navbar {
+        @include margin-padding(30px, 0, 0, 207px);
+        ul{
+            height: 70px;
+            li{
+                display: inline;
+                @include margin-padding(0, 0, 0, 15px);
+        
+                a{
+                    color: $nav-color;
+                    
+                    &:hover {
+                        color:#03D873;
+                        transition: color .8s ease;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.nav-btn {
+    width: 170px;
+    text-align: center;
+    border-radius: 100px;
+    height: 44px;
+    margin-right: 1276px;
+    margin-top: -77px;
+    padding: 8px;
+    color: #fff;
+    background-color: #03D873;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #00B36E;
+        transition: background-color .5s ease;
+    }
+}

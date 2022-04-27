@@ -1,0 +1,80 @@
+
+//header style 
+
+#header {
+
+    .img-content {
+        width: 1519px;
+        margin-top: 30px;
+        filter: brightness(.3);
+        height: 584px;
+    }
+ 
+    h2 {
+        top: 52px;
+        position: absolute;
+        right: 551px;
+        font-size: 34px;
+        color: #fff;
+        text-shadow: 2px 2px 8px #000;
+    }
+
+
+    h4 {
+        top: 125px;
+        position: absolute;
+        right: 589px;
+        font-size: 15px;
+        color: #fff;
+        text-shadow: 2px 2px 8px #000;
+    }
+
+    form {
+        display: flex;
+        justify-content: center;
+        margin-right: 162px;
+        input {
+            width: 325px;
+            height: 70px;
+            z-index: 0;
+            @include margin-padding(-220px, 0, 0, 78px);
+
+            &::placeholder {
+                padding-right: 10px;
+            }
+        }
+    }
+
+    .download-btn {
+            display: flex;
+            justify-content: center;
+            margin-right: 162px;
+
+        p {
+            border: 1px solid #03D873;
+            height: 70px;
+            line-height: 65px;
+            margin-right: 371px;
+            margin-top: -70px;
+            width: 170px;
+            text-align: center;
+            // margin-top: -220px;
+            z-index: 0;
+            margin-left: -31px;
+            color: white;
+            background-color: #03D873;
+            // margin-top: -454px;
+            // margin-left: -405px;
+            @include margin-padding(-220px, 0, 0, -405px);
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+    // img {
+    //     @include download-img();
+    // }
+       
+}

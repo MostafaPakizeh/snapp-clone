@@ -1,0 +1,64 @@
+
+//property style
+
+#property {
+    width: 1401px;
+    height: 300px;
+    margin-top: 77px;
+    margin-right: 118px;
+
+.snap-prop {
+    font-weight: 200;
+    font-size: 29px;
+    margin-top: 43px;
+    margin-right: 241px;
+    color: #00B36E;
+    text-shadow: -2px 0px 20px darkgrey;
+}
+
+.list {
+    margin-top: 100px;
+
+    p {
+        margin-top: 12px;;
+        border: 1px solid;
+        width: 241px;
+        height: 87px;
+        text-align: center;
+        line-height: 87px;
+        background-color: #00D170;
+        color: #fff;
+        border-radius: 5px;
+        margin-right: 151px;
+        font-size: 20px;
+
+        &:hover {
+            background-color: #00B36E;
+            cursor: pointer;
+            
+        }
+    }
+}
+
+    .property-text {
+        background-color: #fff;
+        border: 1px solid #fff;
+        margin-right: 377px;
+        margin-top: -410px;
+        height: 521px;
+        width: 851px;
+        border-radius: 10px;
+
+        .u-list {
+            margin-right: 185px;
+            margin-top: 115px;
+            line-height: 34px;
+            
+        }
+    }
+
+    .p-text {
+        @include margin-padding(0, 37px, 0, 37px);
+        margin-top: 67px;
+    }
+}

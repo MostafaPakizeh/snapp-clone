@@ -1,0 +1,52 @@
+
+//mixin
+
+@mixin flex($flex:flex,$position-x:space-between,$position-y:center) {
+    display: $flex;
+    justify-content: $position-x;
+    align-items: $position-y;
+}
+@mixin margin-padding($top, $right, $bottom, $left, $margin:true) {
+@if ($margin) {
+    margin: $top $right $bottom $left;
+}
+
+@else {
+    padding: $top $right $bottom $left;
+}
+}
+
+@mixin section-divider($flex: flex, $flex-basis:null, $max-width:null) {
+display: flex;
+flex-basis: $flex-basis;
+max-width: $max-width;
+}
+
+@mixin download-img {
+width: 235px;
+}
+
+@mixin boxs {
+border: 1px solid #ededed;
+width: 300px;
+height: 328px;
+border-radius: 25px;
+box-shadow: gray;
+box-shadow: 0px 0px 18px 0px grey;
+text-align: center;
+margin-top: 140px;
+margin-right: 21%;
+}
+
+@mixin boxs-p {
+font-size: 12px;
+margin-top: 45px;
+text-align: justify;
+margin-left: 13px;
+margin-right: 13px;
+}
+
+@mixin display {
+    display: flex;
+    justify-content: center;
+}

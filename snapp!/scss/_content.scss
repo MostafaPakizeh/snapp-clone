@@ -1,0 +1,135 @@
+//content style
+
+#content {
+
+    h1 {
+        margin-right: 570px;
+        margin-top: 123px;
+        font-weight: 200;
+    }
+
+    hr {
+        width: 74%;
+        margin-top: 85px;
+        margin-right: 25%;
+    }
+
+    .h1-p {
+        font-size: $default-font-size + 2px;
+        font-weight: 100;
+        @include margin-padding(120px, 285px, 0, 0);
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-gap: 1px;
+        margin-right: 152px;
+
+            .snap {
+                @include boxs();
+            }
+
+            .snap-p {
+                @include boxs-p();
+            }
+
+            .bors {
+                @include boxs();
+            }
+
+            .bors-p {
+                @include boxs-p();
+            }
+
+            .bike {
+
+                @include boxs();
+            }
+        
+            .bike-p {
+                @include boxs-p();
+            }
+
+            .doctor {
+
+                @include boxs();
+            }
+        
+            .doctor-p {
+                @include boxs-p();
+            }
+
+            .club {
+
+                @include boxs();
+            }
+        
+            .club-p {
+                @include boxs-p();
+            }
+
+            .charity {
+
+                @include boxs();
+            }
+        
+            .charity-p {
+                @include boxs-p();
+            }
+
+            .market {
+
+                @include boxs();
+            }
+        
+            .market-p {
+                @include boxs-p();
+            }
+
+            .food {
+
+                @include boxs();
+            }
+        
+            .food-p {
+                @include boxs-p();
+            }
+
+            .q {
+
+                @include boxs();
+            }
+        
+            .q-p {
+                @include boxs-p();
+            }
+
+            .pay {
+
+                @include boxs();
+            }
+        
+            .pay-p {
+                @include boxs-p();
+            }
+
+            .van {
+
+                @include boxs();
+            }
+        
+            .van-p {
+                @include boxs-p();
+            }
+
+            .trip {
+
+                @include boxs();
+            }
+        
+            .trip-p {
+                @include boxs-p();
+            }
+    }
+}    
