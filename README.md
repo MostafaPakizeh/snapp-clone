@@ -1,2 +1,2 @@
 # snapp-clone
-A sample project : snapp website clone (not responsive...)
+A sample project (snapp! website Clone) using HTML , CSS , Sass (Not Responsive)
